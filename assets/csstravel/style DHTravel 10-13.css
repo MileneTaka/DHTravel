@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box; /* LER SOBRE */
+}
+
+
+body {
+   /*  max-width: 1200px;  */
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+header {
+    background-color: rgb(40, 137, 194);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+header .menu {
+    font-size: 48px;
+    display: none;
+
+}
+
+
+header h1 {
+    font-size: 30px;
+}
+
+.lista {
+    position: absolute;
+    left: 355px;
+}
+
+ul {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    
+    gap: 30px;
+}
+
+li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.banner {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.titulo {
+    font-size: 50px ;
+    text-align: center;
+}
+
+.conteudo {
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+main {
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container {
+    background-color: rgb(114, 195, 242);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    main {
+        padding: 80px 100px;
+    }
+
+    
+}
+
+@media (max-width: 961px) {
+    header ul {
+    
+        display: none;
+    
+    }
+
+    header .menu {
+        font-size: 48px;
+        display: block;
+    
+    }
+
+    .titulo {
+        font-size: 40px ;
+    }
+
+    main {
+        padding: 80px 80px;
+    }
+
+}
+
+@media (max-width: 928px) {
+    main {
+        padding: 80px 60px;
+    }
+
+    
+}
+
+@media (max-width: 643px) {
+    main {
+        padding: 80px 10px;
+    }
+
+    
+}
